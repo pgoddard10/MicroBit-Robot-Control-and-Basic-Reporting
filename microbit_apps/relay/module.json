@@ -1,0 +1,11 @@
+{
+  "name": "iot-c3-relay",
+  "version": "1.0.0",
+  "description": "IoT Challenge 3 - Relay",
+  "license": "MIT",
+  "dependencies": {
+    "microbit": "lancaster-university/microbit"
+  },
+  "targetDependencies": {},
+  "bin": "./source"
+}
