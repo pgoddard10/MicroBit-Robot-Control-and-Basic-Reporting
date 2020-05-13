@@ -47,7 +47,7 @@
     "should": "~1.2.2",
     "sinon": "~1.6.0",
     "async": "~0.2.9",
-    "ws": "~0.4.31"
+    "ws": "~3.3.1"
   },
   "scripts": {
     "pretest": "jshint *.js lib/. test/.",
