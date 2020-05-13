@@ -4,40 +4,26 @@
 A small robotic "buggy" operated by a Micro:Bit over Bluetooth. The controller can either be another Micro:Bit or an Android phone. Optionally, the buggy can be connected to another Micro:Bit over wires which (via Bluetooth) relays movement data to a computer running NodeJS.
 
 ## Task Specification
-(This information is copied from the Assignement brief found on Blackboard).
-Implement an application that communicates between two micro:bits or a micro:bit and
-another device, e.g. a laptop or phone, using either the simplified radio comms (uBit.radio),
-or the more advanced Bluetooth LE.
-Your solution should be implemented using C++. For the BLE solution you might what to look
-at using MBED rather that the the micro:bit DAL runtime we have been using to date.
-Your solution must be committed in UWE's Gitlab. It will naturally be time stamped and you
-must be careful to not make commits after the submission deadline.
-If you choose to use just the basic radio comms, then you can get a maximum of 70% for the
-submission. To get beyond the 70% you should use Bluetooth LE.
-Your solution's source code should follow a coding convention, it should be well
-commented, and include a README.md on how to build it and what and how to use your
-solution.
-2
-This challenge can be done individually or in groups of a MAXIMUM size of 2, i.e. pairs.
+(This information is copied from the Assignement brief found on Blackboard)
+
+Implement an application that communicates between two micro:bits or a micro:bit and another device, e.g. a laptop or phone, using either the simplified radio comms (uBit.radio), or the more advanced Bluetooth LE.
+
+Your solution should be implemented using C++. For the BLE solution you might what to look at using MBED rather that the the micro:bit DAL runtime we have been using to date. Your solution must be committed in UWE's Gitlab. It will naturally be time stamped and you must be careful to not make commits after the submission deadline. If you choose to use just the basic radio comms, then you can get a maximum of 70% for the submission.
+
+To get beyond the 70% you should use Bluetooth LE.
+
+Your solution's source code should follow a coding convention, it should be well commented, and include a README.md on how to build it and what and how to use your solution.
+
 Submission should be individually and the README.md must document who contributed to
 the submission.
+
 But what should the communication do? That is up to you, but here are some possible ideas:
-• Using BLE you could develop a service to transmit movements of the micro:bit using
-the accelerometer. These recordings could be transmitted to a laptop, for example,
-running a single client developed in Node.js that displays the movements in textural
-or better still graphical form. An alternative might be to use Python. (This is seen as
-the hardest challenge and will be marked as such. It is not recommended for those
-that have found the other 2 challenges hard.)
-• Using the simplified radio comms API, which is part of the DAL, develop an extension
-of the Morse code protocol from challenge 2, so that it can work wireless. This
-should be fairly straightforward project and will be marked according.
-• Using the simplified radio comms API, which is part of the DAL, develop a protocol
-to communicate commands to work with the BBC micro:bit inventor kit.
-(https://www.kitronik.co.uk/5603-inventors-kit-for-the-bbc-microbit.html). These
-can be loaned from the project room, on a two day basis. There will also be some in
-the lab sessions.
-Node.js library to develop BLE central applications is: https://github.com/noble/noble. Note,
-your laptop or desktop device must support BLE (Bluetooth 4) for this to work.
+
+- Using BLE you could develop a service to transmit movements of the micro:bit using the accelerometer. These recordings could be transmitted to a laptop, for example, running a single client developed in Node.js that displays the movements in textural or better still graphical form. An alternative might be to use Python. (This is seen as the hardest challenge and will be marked as such. It is not recommended for those that have found the other 2 challenges hard.)
+
+- Using the simplified radio comms API, which is part of the DAL, develop an extension of the Morse code protocol from challenge 2, so that it can work wireless. This should be fairly straightforward project and will be marked according.
+
+- Using the simplified radio comms API, which is part of the DAL, develop a protocol to communicate commands to work with the BBC micro:bit inventor kit. (https://www.kitronik.co.uk/5603-inventors-kit-for-the-bbc-microbit.html). These can be loaned from the project room, on a two day basis. There will also be some in the lab sessions. Node.js library to develop BLE central applications is: https://github.com/noble/noble. Note, your laptop or desktop device must support BLE (Bluetooth 4) for this to work.
 
 ## Prerequisites
 There are several options available here, depending on equipment available and how much effort you can be bothered to go through.
