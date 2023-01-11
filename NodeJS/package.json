@@ -34,7 +34,7 @@
   ],
   "dependencies": {
     "bbc-microbit": "^0.2.0",
-    "debug": "~2.2.0"
+    "debug": "~3.1.0"
   },
   "optionalDependencies": {
     "bluetooth-hci-socket": "^0.5.1",
